@@ -1,0 +1,26 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #5B84B1, #93acd6);
+    overflow: hidden;
+  }
+  
+  .button {
+    height: 10vh;
+    width: 20vw;
+    font-size: 2rem;
+  }
